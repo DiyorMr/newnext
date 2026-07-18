@@ -1,9 +1,13 @@
-import React from 'react'
+export const metadata = {
+  title: "Bosh sahifa",
+  description: "Bu saytning bosh sahifasi",
+};
 
-const page = () => {
+export default function Home() {
   return (
-    <div>Bosh sahifa</div>
-  )
+    <>
+      <h1>Bosh sahifa</h1>
+      <p>Saytga xush kelibsiz</p>
+    </>
+  );
 }
-
-export default page

@@ -1,7 +1,12 @@
+export const metadata = {
+  title: "Contact sahifa",
+  description: "Bu saytning contact sahifasi",
+};
+
 export default function Contact() {
   return (
-    <main>
+    <>
       <h1>Bu Contact sahifa</h1>
-    </main>
+    </>
   );
 }

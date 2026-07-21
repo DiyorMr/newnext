@@ -1,13 +1,12 @@
-export const metadata = {
-  title: "Bosh sahifa",
-  description: "Bu saytning bosh sahifasi",
-};
+import Card from "./components/Card";
+import Title from "./components/Title";
 
 export default function Home() {
   return (
-    <>
-      <h1>Bosh sahifa</h1>
-      <p>Saytga xush kelibsiz</p>
-    </>
+    <main>
+      <Title text="Bosh sahifa" />
+      <Card name="Telefon" price="1200$" />
+      <Card name="Airpods" price="100$" />
+    </main>
   );
 }

@@ -1,5 +1,5 @@
 import Link from "next/link";
-// import "./globals.css";
+import "./globals.css";
 
 export const metadata = {
   title: "My App",
@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="uz">
       <body>
-        <nav style={{ padding: "10px", background: "#eee" }}>
+        <nav className="bg-amber-600 flex justify-center gap-4">
           <Link href="/">Bosh sahifa</Link> | {""}
           <Link href="/about">Biz haqimizda</Link> | {""}
           <Link href="/contact">Contact</Link> | {""}
@@ -21,3 +21,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 } 
+
+

@@ -1,12 +1,11 @@
-import Card from "./components/Card";
-import Title from "./components/Title";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <main>
-      <Title text="Bosh sahifa" />
-      <Card name="Telefon" price="1200$" />
-      <Card name="Airpods" price="100$" />
+      <Header />
+      <h2>Bosh sahifaga xush kelibsiz</h2>
+      <p>Bu joyda biz next js da css dan foydalanishni organdik</p>
     </main>
   );
 }
